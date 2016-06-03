@@ -1,0 +1,91 @@
+@media(min-width: 960px){
+  .connect-a, .top-utils p a, .top-utils p span{
+    display: inline;
+  }
+
+  #logo{
+    margin: .5em 0 0 .5em;
+  }
+
+
+  .col-4{
+    width: 25%;
+  }
+
+  .col-1{width: 100%;}
+
+  .col-3{width: 33.33%;}
+
+  .testimonials-a .item blockquote p {
+    font-size: 1.6em;
+  }
+
+  #newslist-b {
+    position: relative;
+    margin: 0 0 3.75rem;
+  }
+
+  #newslist-b ul {
+    list-style: none;
+    border-top: 0.125rem dotted #ddccb4;
+    width: 95%;
+  }
+
+  #newslist-b ul li {
+    padding: 0.4375rem 0;
+    border-bottom: 0.125rem dotted #ddccb4;
+  }
+
+  .showcase-a {
+    position: relative;
+    z-index: 1;
+    height: 25rem;
+    margin: 0;
+  }
+
+  .showcase-a:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -200%;
+    right: -200%;
+    z-index: -1;
+    background: url(../images/showcase-a-bg.jpg) repeat-x;
+    content: '';
+  }
+
+  .showcase-a .wrap {
+    width: 60rem;
+    height: 25rem;
+  }
+
+  /*js*/
+  .showcase-a ul.images {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 60rem;
+    height: 25rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .showcase-a ul.images li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60rem;
+    height: 25rem;
+    margin: 0;
+  }
+
+  .showcase-a ul.infos, .showcase-a ul.infos li{
+    height: 25rem;
+  }
+
+  .showcase-a ul.infos li .text{
+    display: block;
+  }
+
+}

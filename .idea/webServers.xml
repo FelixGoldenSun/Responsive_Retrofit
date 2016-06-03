@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5e06b574-9346-49d3-8220-c3c9c9b34f45" name="retrofit.benawalls.com" url="http://retrofit.benawalls.com">
+        <fileTransfer host="retrofit.benawalls.com" port="21" rootFolder="/retrofit.benawalls.com" username="benwal31">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

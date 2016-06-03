@@ -1,0 +1,391 @@
+@media(min-width: 640px){
+
+  .connect-a:first-of-type{
+    display:inline;
+  }
+
+  .connect-a, .top-utils p a, .top-utils p span{
+    display: inline;
+  }
+
+  .connect-a div a, .top-utils p{
+    float: left;
+    padding: .5em .6em .4em .6em;
+
+  }
+
+  .connect-a div{
+    margin: .3em;
+    float: left;
+
+  }
+
+  .connect-a div a{
+    background-image: url(../images/connect-a-icons.png);
+    font-size: 1em;
+    color: transparent;
+    width: 76%;
+  }
+
+  .connect-a div:nth-child(1) a{
+    background-position: 0 -0.0625rem;
+  }
+
+  .connect-a div:nth-child(2) a{
+    background-position: -1.875rem 0;
+  }
+
+  .connect-a div:nth-child(3) a{
+    background-position: -3.813rem -0.0625rem;
+  }
+
+  .connect-a div:nth-child(4) a{
+    background-position: -5.688rem -0.0625rem;
+  }
+
+  #cta-a div div div a:first-of-type{
+    display: inline;
+  }
+
+  .showcase-a {
+    position: relative;
+    z-index: 1;
+    height: 18.75rem;
+    margin: 0;
+  }
+
+  .showcase-a:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -200%;
+    right: -200%;
+    z-index: -1;
+    background: url(../images/showcase-a-bg.jpg) repeat-x;
+    content: '';
+  }
+
+  .showcase-a .wrap {
+    position: relative;
+    width: 60rem;
+    height: 19rem;
+    overflow: hidden;
+    margin: 0;
+  }
+
+  /*js*/
+  .showcase-a ul.images {
+    position: absolute;
+    top: 0;
+    left: -3rem;
+    z-index: 1;
+    width: 58.13rem;
+    height: 18.75rem;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .showcase-a ul.images li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60rem;
+    height: 25rem;
+    margin: 0;
+  }
+
+  .showcase-a ul.images li:before {
+    display: none;
+  }
+
+  .showcase-a ul.images li + li {
+    display: none;
+  }
+
+  .showcase-a ul.images li img {
+    display: block;
+    max-width: 60rem;
+    margin: 0;
+  }
+
+  .showcase-a ul.infos {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    float: left;
+    width: 6250rem;
+    height: 18.75rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .showcase-a ul.infos li {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 60rem;
+    width: 60rem;
+    height: 18.75rem;
+    margin: 0;
+  }
+
+
+
+  .showcase-a ul.infos li:first-child {
+    display: block;
+    left: 0;
+  }
+
+  .showcase-a ul.infos li:before {
+    display: none;
+  }
+
+  .showcase-a ul.infos li .text {
+    position: absolute;
+    bottom: 1.25rem;
+    right: 0.625rem;
+    width: 21.88rem;
+    margin: 0;
+    padding: 1.25rem 1.563rem;
+    background: url(../images/showcase-a-txt.png) repeat-y;
+    color: #fff;
+    text-shadow: 0 0.125rem 0 #000;
+    display: none;
+  }
+
+  .showcase-a ul.infos li .text p {
+    margin: 0 0 0.3125rem;
+    font-size: 1.438rem;
+    font-weight: bold;
+    line-height: 1.215;
+  }
+
+  .showcase-a ul.infos li .text p.action {
+    margin: 0;
+    font: normal 1.125rem/1.215 'Arial Black', 'Arial Bold', Arial, Helvetica Neue, Helvetica, sans-serif;
+  }
+
+  .showcase-a ul.infos li .text p.action a {
+    color: #c9ed69;
+  }
+
+  .showcase-a ul.infos li .text p.action a:hover,
+  .showcase-a ul.infos li .text p.action a:focus,
+  .showcase-a ul.infos li .text p.action a:active {
+    color: #d06a27;
+  }
+
+  .showcase-a ul.paging {
+    position: absolute;
+    bottom: 7.75rem;
+    left: 1.25rem;
+    z-index: 3;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .showcase-a ul.paging li {
+    position: relative;
+    float: left;
+    width: 0.625rem;
+    height: 0.625rem;
+    margin: 0 0 0 0.3125rem;
+    padding: 0;
+    top: 6rem;
+  }
+
+  .showcase-a ul.paging li:before {
+    display: none;
+  }
+
+  .showcase-a ul.paging li a {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #fdf8ec;
+    font-size: 0;
+    text-indent: 100%;
+    white-space: nowrap;
+    outline: none;
+  }
+
+  .showcase-a ul.paging li a {
+    border-radius: 0.3125rem;
+    /* behavior: url(styles/pie.htc);*/
+  }
+
+  .showcase-a ul.paging li a:hover,
+  .showcase-a ul.paging li a.active {
+    background: #9ac429;
+  }
+
+  .showcase-a ul.steps {
+    display: none;
+  }
+
+  .col-4{width: 50%;}
+
+  .col-1{width: 100%;}
+
+  .col-3{width: 33.33%;}
+
+  #testimonials{display:block;}
+  .showcase-a{display:block;}
+  #phone_header_image{display:none;}
+
+  .col-4 figure{
+    float:none;
+  }
+
+  /*main menu */
+
+  #navWrapper {
+    margin-right: 6.5em;
+  }
+
+  nav ul {
+    margin-left: 2%;
+    border-left:solid 0.0625rem rgba(255,255,255,0.3);
+  }
+
+
+  nav ul li {
+    float: left;
+  }
+
+  nav ul li a {
+    display:block;
+    color: #967b58;
+    text-decoration: none;
+    border-right:solid 0.0625rem rgba(255,255,255,0.3);
+    font-size: .9em;
+    padding: .7em .9em;
+
+    /*transition*/
+  }
+  nav ul li a:hover {
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 1em;
+    width: 100%;
+  }
+  nav ul li.active > a {
+    background-color: #fcf8ec;
+  } /*use the > to NOT highlight the sub menu items*/
+
+  /*rules for the sub menu items*/
+  nav ul li ul {
+    z-index:99;
+    position: absolute;
+    margin: 0;
+    left: 999em; /* pushes the menu way off to the side */
+    width: 10em;
+    background-color: #fcf8ec;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 1em;
+    font-size: .7em;
+  }
+  nav ul li ul li { /* overides the float and line from the parent ul */
+    border-bottom: 0.0625rem solid rgba(0,0,0,0.3);
+    float: none;
+    border-right: none;
+  }
+
+  nav li:hover ul { /* this displays the menus as drop downs  */
+    left: auto;
+  }
+
+  #testimonials{display:none;}
+
+
+  #testimonials-a {
+    position: relative;
+    min-height: 11.25rem;
+  }
+
+  .testimonials-a .item {
+    color: #3c2313;
+  }
+
+  .js .testimonials-a .item {
+    margin: 0;
+  }
+
+  .testimonials-a .item blockquote {
+    position: relative;
+    min-height: 8rem;
+    margin: 0 0 0.625rem;
+    padding: 1.25rem 4.375rem;
+    border-bottom: 0.125rem dotted #ddccb4;
+    color: #967b58;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+  }
+
+  .testimonials-a.wide .item blockquote {
+    min-height: 1.875rem;
+  }
+
+  .testimonials-a .item blockquote:before {
+    position: absolute;
+    top: 1.563rem;
+    left: 0;
+    width: 2.563rem;
+    height: 2.063rem;
+    background: url(../images/quotes-a.png) no-repeat;
+    content: '';
+  }
+
+  .testimonials-a .item blockquote:after {
+    position: absolute;
+    top: 2.063rem;
+    right: 0;
+    width: 2.5rem;
+    height: 2.063rem;
+    background: url(../images/quotes-a.png) 100% 0 no-repeat;
+    content: '';
+  }
+
+  .testimonials-a .item > p {
+    margin: 0;
+    padding: 0 4.375rem;
+    font-size: 0.9375rem;
+    line-height: 1.375rem;
+  }
+
+  .testimonials-a .item blockquote p {
+    font-size: 1.3em;
+    line-height: 1.35;
+  }
+
+  .testimonials-a > p.action {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    float: right;
+    margin: 0;
+  }
+
+  .testimonials-a ul.nav {
+    display: none;
+  }
+
+  #newslist-b ul {
+    width: 70%;
+  }
+
+  footer h3 {
+    width: 5em;
+  }
+
+  footer #footer_wrapper figure {
+    float: left;
+    display: block;
+  }
+
+}
